@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			padding: 0;
+			margin:0;
+			box-sizing: border-box;
+			font-family: sans-serif;
+
+		}
+		.footer{
+			position: absolute;
+			bottom:0;
+			left:0;
+			width: 100%;
+			height: auto;
+			padding:3rem;
+			background: #3C48DC;
+				
+		}
+		.footer h1{
+			text-align: center;
+			font-size: 2.5rem;
+			margin-bottom: 1.5rem;
+            color:#ffe;
+            text-shadow: 5px 5px #151568;
+
+		}
+		.footer p{
+			text-align: center;
+			margin-bottom: 1.5rem;
+			color: lightgray;
+		}
+		.footer form div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #ffe;
+		margin:auto;
+		width: 50%;
+		position: relative;
+		height: 4rem;
+		border-radius: 5rem;
+			box-shadow: 6px 6px 7px rgba(0,0,0,0.13);
+
+		}
+		.footer input[type="email"]{
+			outline: none;
+			border:0;
+			position: absolute;
+			left:1rem;
+			font-size: 1rem;
+		}
+		.footer input[type="submit"]{
+			border:0;
+			padding: 1.2rem;
+			color: #ffe;
+			border-radius:4rem;
+			background:  #151568;
+			position: absolute;
+			right:.3rem;
+			font-weight: 700;
+			outline:none;
+			cursor:pointer;
+		}
+		.copyright-text{
+			color: lightgray;
+			position: absolute;
+			left:3rem;
+			bottom:-1rem;
+			
+		}
+		.shape-1{
+			width: 3rem;
+			height: 3rem;
+			border-radius: 50%;
+			background: #ffe;
+			position: absolute;
+			top:20%;
+			left:2rem;
+			opacity: .8;
+		}
+		.shape-2{
+			width: 5rem;
+			height: 5rem;
+			border-radius: 50%;
+			background: #ffe;
+			position: absolute;
+			top:10%;
+			right: 0;
+			overflow: hidden;
+				opacity: .8;
+		}
+@media (max-width: 800px){
+	.footer input[type="submit"]{
+		padding: .9rem;
+	 }
+	 .footer input[type="email"]{
+		font-size: .9rem;
+	 }
+	 .footer form div{
+	 	height: 3.2rem;
+	 	width:auto;
+	 }
+	 .footer p{
+	 	font-size: .85rem;
+	 }
+	 .footer h1{
+	 	font-size: 2rem;
+	 	margin-bottom: 1.2rem;
+	 }
+	 .copyright-text{
+			font-size: .9rem;
+			
+		}
+		.shape-1{
+			height: 2.1rem;
+			width: 2.1rem;
+		}
+		.shape-2{
+			height: 3rem;
+			width: 3rem;
+		}
+
+
+}
+
+	</style>
+</head>
+<body>
+<!-- Footer Section for light mode -->
+	<footer class="footer">
+		<h1>Get In Touch</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Placeat, a, eaque doloribus  consectetur!</p>
+		<form>
+			<div>
+				<input type="email" placeholder="Enter your mail">
+				<input type="submit" name="submit" value="Subscribe">
+			</div>
+		</form>
+		<p class="copyright-text">@Copyright Lorem ipsum dolor, sit.</p>
+			<div  class="shape-1"></div>
+	<div class="shape-2"></div>
+	<div class="shape-3"></div>
+	<div class="shape-4"></div>
+	</footer>
+
+	
+</body>
+</html>
